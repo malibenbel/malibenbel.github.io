@@ -91,7 +91,7 @@
   }
 }
 
-\\
+
 .project-box {
   background-color: #2c3e50;
   color: #ffffff;
@@ -114,27 +114,6 @@
   max-width: 90%;
   color: #f8f9fa;
 }
-
-.project-modal-description {
-  font-size: 1rem;
-  line-height: 1.7;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-  color: #343a40;
-}
-
-.modal-content {
-  background-color: #fdfdfd;
-  border-radius: 12px;
-}
-
-.btn-outline-dark:hover {
-  background-color: #2c3e50;
-  color: #fff;
-  border-color: #2c3e50;
-}
-
-\\
 
 body {
   margin: 0;
