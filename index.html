@@ -520,5 +520,12 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <script>
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(m => m.addEventListener('show.bs.modal', () => console.log(m.id + ' is showing')));
+        </script>
+
+          
     </body>
 </html>
