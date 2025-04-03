@@ -131,6 +131,24 @@
   font-size: 2rem;
 }
 
+.project-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 90%;
+  color: #f8f9fa;
+}
+
+.project-modal-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #343a40;
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
