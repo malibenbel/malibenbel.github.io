@@ -132,7 +132,7 @@
 }
 
 .project-description {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   line-height: 1.5;
   padding: 0 10px;
   margin: 0 auto;
@@ -149,7 +149,7 @@
 }
 
 .project-title {
-  font-size: 1.30rem;
+  font-size: 1.35rem;
   color: #f8f9fa;
 }
 
@@ -11106,4 +11106,10 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+@media (min-width: 992px) {
+  .modal-xl {
+    --bs-modal-width: 900px; /* You can change to 1000px or 1100px if you want more width */
+  }
 }
