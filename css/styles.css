@@ -148,6 +148,16 @@
   color: #343a40;
 }
 
+.project-description {
+  font-size: 1.05rem; /* or 1.1rem if you want it larger */
+  color: #333;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  color: #2c3e50;
+}
+
 
 body {
   margin: 0;
